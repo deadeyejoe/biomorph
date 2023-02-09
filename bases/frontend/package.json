@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "tailwind:watch": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/main.css --watch",
+    "tailwind:release": "npx tailwindcss -i ./src/css/tailwind.css -o ./release/main.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}
